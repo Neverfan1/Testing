@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ab7aNMewHEg3/JowRiQA9Qp+FOJJi6drLTraX5Y72TbLaO1Ug4px28Nj/oboPcA+ojpx2lAr+KaYIWs4v4WT2Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aserb\\source\\repos\\AutoTest_Paramin\\AutoTest_Paramin\\AutoTest_Paramin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aserb\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
+    "C:\\Users\\aserb\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
+    "C:\\Users\\aserb\\.nuget\\packages\\microsoft.net.test.sdk\\16.9.4\\microsoft.net.test.sdk.16.9.4.nupkg.sha512",
+    "C:\\Users\\aserb\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\aserb\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.9.4\\microsoft.testplatform.objectmodel.16.9.4.nupkg.sha512",
+    "C:\\Users\\aserb\\.nuget\\packages\\microsoft.testplatform.testhost\\16.9.4\\microsoft.testplatform.testhost.16.9.4.nupkg.sha512",
+    "C:\\Users\\aserb\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\aserb\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\aserb\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
+    "C:\\Users\\aserb\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
+    "C:\\Users\\aserb\\.nuget\\packages\\nunit3testadapter\\4.1.0\\nunit3testadapter.4.1.0.nupkg.sha512",
+    "C:\\Users\\aserb\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512",
+    "C:\\Users\\aserb\\.nuget\\packages\\selenium.webdriver.chromedriver\\96.0.4664.4500\\selenium.webdriver.chromedriver.96.0.4664.4500.nupkg.sha512",
+    "C:\\Users\\aserb\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
