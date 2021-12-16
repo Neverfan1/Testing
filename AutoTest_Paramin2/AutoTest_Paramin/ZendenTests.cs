@@ -12,7 +12,7 @@ using System.Text.RegularExpressions;
 
 namespace AutomatedTests
 {
-    public class LamodaTests
+    public class ZendenTests
     {
         WebDriver driver;
 
@@ -25,7 +25,7 @@ namespace AutomatedTests
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://zenden.ru/");
-           
+            //driver.FindElement(By.XPath("//button[contains(.,'Хорошо')]")).Click();
         }
 
         [Test]
@@ -56,7 +56,7 @@ namespace AutomatedTests
             var webPrices = driver.FindElements(By.CssSelector(".product-price__current"));
 
             int[] actualPrices = webPrices.Select(webPrice => Int32.Parse(Regex.Replace(webPrice.Text, @"\D+", ""))).ToArray();
-            actualPrices.ToList().ForEach(price => Assert.IsTrue(price >= 1000 && price <= 9000));
+            actualPrices.ToList().ForEach(price => Assert.IsTrue(price >= 1000 && price <= 9000, "Some element did not pass into the filter"));
         }
 
         [Test]
@@ -76,7 +76,7 @@ namespace AutomatedTests
             driver.FindElement(By.XPath("//span[text() = 'Войти']")).Click();
             driver.FindElement(By.XPath("//span[text() = 'Зарегистрироваться']")).Click();
             Assert.IsTrue(!driver.FindElements(By.CssSelector(".form__row form__row_submit.js-request.is-hidden")).Any(),
-                "Error");
+                "The register button is available if the phone number are empty");
         }
 
         [TearDown]
